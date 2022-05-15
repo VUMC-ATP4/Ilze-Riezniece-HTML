@@ -1,0 +1,45 @@
+#ramitismain {
+   border-style: dashed; 
+   margin:20px;
+   padding: 15px;
+   width: auto;
+   background-color: aquamarine;
+   image-orientation: from-image;
+   shape-image-threshold: inherit;
+}
+.name  {
+   font-weight: bold;
+   text-align: center;
+}
+.main {
+   font-weight: bold;
+   color: blue;
+}
+.small {
+   font-weight: bold;
+   color: blue;
+}
+.smaller {
+   color: black;
+}
+#specialramitis {
+   display: grid;
+   grid-template-columns: 20% 40% 40%;
+   margin: 10;
+}
+
+.li {
+   text-align: left;
+}
+.body {
+   background-color: bisque;
+}
+.ramitisright, .ramitismiddle {
+   background-color: azure;
+}
+.ramitisleft{
+   background-color: rgb(223, 247, 244);
+}
+.explanation {
+   font-size: small;
+}
