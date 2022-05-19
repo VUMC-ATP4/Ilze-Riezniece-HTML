@@ -1,15 +1,24 @@
 #ramitismain {
    border-style: dashed; 
    margin:20px;
-   padding: 15px;
-   width: auto;
+   padding: 10px;
+   display: grid;
+   grid-template-columns: 20% 80%;
+}
+
+.ramisright {
    background-color: aquamarine;
+   text-align: justify, center;
+}
+.ramisleft {
    image-orientation: from-image;
-   shape-image-threshold: inherit;
+   text-align: center;
+   background-color: aquamarine;
+   padding: auto;
 }
 .name  {
    font-weight: bold;
-   text-align: center;
+   text-align: left;
 }
 .main {
    font-weight: bold;
@@ -41,5 +50,8 @@
    background-color: rgb(223, 247, 244);
 }
 .explanation {
-   font-size: small;
+   font-size: large;
+}
+body {
+   font-size: x-large;
 }
